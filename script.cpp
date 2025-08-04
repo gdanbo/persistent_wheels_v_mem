@@ -63,7 +63,6 @@ void ScriptInit()
 }
 
 void CollectGarbage() {
-	//std::cout << "\n# Collecting garbage in memory...\n";
 	SteeringParked->Restore();
 	delete SteeringControl;
 	delete SteeringParked;
