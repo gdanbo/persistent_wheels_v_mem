@@ -101,7 +101,6 @@ namespace patterns {
         if (instructionLength != 0)
             ret = resolve_addy(ret, instructionLength, bytesBeforeTarget);
 
-        // komentar za anti-reverse
         //if (ret != NULL) {
         //    std::cout << ("[SCAN] Matching pattern found!\n [ ") << sSignature;
         //    std::cout << (" ]\n   -> 0x") << std::hex << ret << (" (offset 0x") << std::hex << ret - moduleBase << ")\n\n";
